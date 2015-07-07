@@ -14,6 +14,7 @@ class Purescript < Formula
 
   def install
     cabal_sandbox do
+      cabal_install_tools "alex", "happy"
       cabal_install "--only-dependencies"
       cabal_install "--prefix=#{prefix}"
     end
