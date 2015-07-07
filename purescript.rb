@@ -4,8 +4,8 @@ class Purescript < Formula
   include Language::Haskell::Cabal
 
   homepage "http://www.purescript.org"
-  url "http://hackage.haskell.org/package/purescript-0.6.8/purescript-0.6.8.tar.gz"
-  sha1 "70fd4d3109d61c34c8898a30d222c4b1ad8fd7a5"
+  url "https://hackage.haskell.org/package/purescript-0.7.0.0/purescript-0.7.0.0.tar.gz"
+  sha1 "83f4dfc520afd25576031256e9ca3c775e6eba52"
   head "https://github.com/purescript/purescript", :using => :git
 
   depends_on "ghc" => :build
